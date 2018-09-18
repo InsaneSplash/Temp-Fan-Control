@@ -1,7 +1,9 @@
-
+#include <WiFi.h>
+#include <WiFiClient.h>
+#include <WiFiServer.h>
+#include <WiFiUdp.h>
 
 #include <LiquidCrystal.h>
-#include <ArduinoWiFi.h>
 
 LiquidCrystal lcd(8, 9, 4, 5, 6, 7);
 
